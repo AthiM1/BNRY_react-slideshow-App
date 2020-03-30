@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Footer from './footer';
 import Menu from './navbar';
-
+import Slideshow from './components/slide'
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
             <Menu />
           
             </header>
-        
+           <Slideshow />
             <footer>
               <Footer />
 
