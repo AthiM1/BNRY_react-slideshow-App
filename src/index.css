@@ -17,8 +17,17 @@ body {
   justify-content: space-around;
   overflow: hidden;
   padding: 2%;
-
 }
+
+.containerSlide{
+  width: 550px;
+  margin: auto;
+  padding-top: 200px;
+}
+.containerSlide img {
+  height: 500px;
+}
+
 .footer {
   text-align: center;
   background-color: rgb(227, 224, 240);
@@ -27,6 +36,6 @@ body {
   justify-content: space-around;
   overflow: hidden;
   padding: 2%;
-bottom: 10px;
+
 
 }

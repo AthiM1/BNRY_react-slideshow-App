@@ -7,7 +7,11 @@ import four from '../images/four.jpg'
 import five from '../images/five.jpg'
 
 const properties ={
-
+    duration: 5000,
+    transitionDuration: 500,
+    infinite: true,
+    indicators: true,
+    arrows: true
 }
 const Slideshow = () => {
     return (
