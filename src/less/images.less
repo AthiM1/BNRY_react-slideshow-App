@@ -1,0 +1,50 @@
+.ss-images {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+}
+
+.ss-images-track {
+  white-space: nowrap;
+  width: inherit;
+  height: inherit;
+  transition: all 500ms ease-out;
+}
+
+.ss-no-transition {
+  transition-property: none;
+}
+
+.ss-slide-image {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  transition: all 500ms ease-out;
+  width: inherit;
+
+  > img {
+    width: inherit;
+  }
+}
+
+.ss-fixed-height {
+  .ss-slide-image {
+    height: inherit;
+    overflow: hidden;
+  
+    &::before {
+      content: "";
+      margin-left: -100%;
+    }
+    &::after {
+      content: "";
+      margin-right: -100%;
+    }
+
+    > img {
+      width: auto;
+      height: inherit;
+    }
+  }
+}

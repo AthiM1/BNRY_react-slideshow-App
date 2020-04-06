@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import one from '../images/one.jpg'
-import two from '../images/two.jpg'
+import two from '../images/two.png'
 import three from '../images/three.jpg'
 import four from '../images/four.jpg'
 import five from '../images/five.jpg'
